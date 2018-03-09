@@ -1,7 +1,7 @@
 var friendsArray = [
 {
-    "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Jean Luc",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Captain_Picard_Chair.jpg/220px-Captain_Picard_Chair.jpg",
     "scores":[
         5,
         1,

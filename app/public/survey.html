@@ -162,6 +162,12 @@
 
   </div>
 
+  <hr/>
+  <div class="new-friend">
+    <h2 id="new-friend-name"></h2>
+    <img id="new-friend-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+  </div>
+
   <!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS LOADED FROM OUR SERVER -->
 <script type="text/javascript">
 
@@ -182,6 +188,10 @@
           // Here we then log the NYTData to console, where it will show up as an object.
           console.log(friendsArray);
           // console.log("------------------------------------");
+          
+          $("#new-friend-name").text(friendsArray[0].name);
+          $("#new-friend-img").attr("src", friendsArray[0].photo);
+
   
           // // Loop through and display each of the customers
           // for (var i = 0; i < tableData.length; i++) {
